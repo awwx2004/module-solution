@@ -31,6 +31,7 @@ section{
 	left:90%;
 	top:0;
 
+	
 }
 #sec2 >h3{
 	background-color:#8FBC8F;
@@ -56,9 +57,7 @@ section{
 	left:90%;
 	top:0;
 }
-section p{
-clear:both;
-}
+
 /*tablet*/
 @media screen and (min-width:768px)
 {
