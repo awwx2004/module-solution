@@ -1,94 +1,95 @@
 
 /*default mobile*/
-* {
-	box-sizing:border-box;
-	margin:0;
-}
 body{
 	font-family:Arial, Helvetica, sans-serif;
 	margin:1%;
 	background-color:#ffddcc;
+  
 }
-
+content{
+  width:100%;
+  margin-left:0 auto;
+  margin-right:0 auto;
+  
+}
 h1{
 	font-familY: 'Indie Flower', cursive;
     text-align:center;
 }
-section{
+.section{
 	background-color:#939393;
-	width:100%;
+	width:98%;
 	border:1px solid #000000;
+	margin:1%;
 }
 #sec1 >h3{
-	background-color:#E9967A;
-	width:10%;
 	text-align:center;
-	padding-left:1%;
-	padding-right:1%;
+	padding-left:3%;
+	padding-right:3%;
 	border: 1px solid #000000;
 	margin:0px;
-	position:relative;
-	left:90%;
-	top:0;
-
-	
+  float:right;
+  background-color:#E9967A;
+  font-size:150%;
 }
 #sec2 >h3{
 	background-color:#8FBC8F;
-	width:10%;
-    text-align:center;
-	padding-left:1%;
-	padding-right:1%;
+	text-align:center;
+	padding-left:3%;
+	padding-right:3%;
 	border: 1px solid #000000;
 	margin:0px;
-	position:relative;
-	left:90%;
-	top:0;
+  float:right;
+  font-size:150%;
 }
 #sec3 >h3{
 	background-color:#FFFACD;
-	width:10%;
 	text-align:center;
-	padding-left:1%;
-	padding-right:1%;
+	padding-left:3%;
+	padding-right:3%;
 	border: 1px solid #000000;
 	margin:0px;
-	position:relative;
-	left:90%;
-	top:0;
+  float:right;
+  font-size:150%;
+}
+p{
+  clear:both;
+  margin:1%;
 }
 
 /*tablet*/
-@media screen and (min-width:768px)
+@media screen and (min-width:768px) and (max-width:991px)
 {
-	*{
-	box-sizing:border-box;
-	margin:0;
-	}
-	#sec1{
-		display:inline-block;
-		float:left;
-		width:49%;
-		margin-right:1%;
-		margin-bottom:2%;
-		
-	}
-    #sec2{
-		display:inline-block;
-		float:left;
-		width:49%;
-		margin-left:1%;
-		margin-bottom:2%;
 
-	}
-	#sec3{
-		clear:both;
+  .section:nth-child(1){
+	  display:inline-block;
+	  width:47%;
+	  border:1px solid #000000;
+	  float:left;
+  }
+  .section:nth-child(2){
+	  dislay:inline-block;
+	  width:47%;
+	  border:1px solid #000000;
+	  float:left;
+  }
+  .section:nth-child(3){
+	  clear:both;
+	  display:block;	
+	  width:96%;
+	  border:1px solid #000000;
+  }
 
-	}
-	
+
 }
 /*desktop*/
-@media screen and (min-width:769px)
+
+@media screen and (min-width:992px)
 {
-	
+  .section{
+    width:30%;
+    display:inline-block;
+    margin:1%;
+  }
+
 }
